@@ -43,12 +43,6 @@ print("Please enter the shield level.")
 shield = int(input())
 print("\nHealth has been set.")
 
-for heart in range(lives):
-    print("♥", end = ' ')
-print()
-for shield in range(energy):
-    print("♦", end=' ')
-print()
-for armor in range(shield):
-    print("♦", end=' ')
-print()
+print("Lives: " + "❤️" * lives)
+print("Energy: " + "⚡" * energy)
+print("Shield: " + "🛡️" * shield)
