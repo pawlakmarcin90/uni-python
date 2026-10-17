@@ -33,3 +33,22 @@ bmi = weight / height ** 2
 bmi_round = round(bmi, 2)
 
 print(f"{name_bmi}, your BMI is {bmi_round}")
+
+# Simple game simulation
+print("Enter the number of lives.")
+lives = int(input())
+print("Please enter the energy level.")
+energy = int(input())
+print("Please enter the shield level.")
+shield = int(input())
+print("\nHealth has been set.")
+
+for heart in range(lives):
+    print("♥", end = ' ')
+print()
+for shield in range(energy):
+    print("♦", end=' ')
+print()
+for armor in range(shield):
+    print("♦", end=' ')
+print()
