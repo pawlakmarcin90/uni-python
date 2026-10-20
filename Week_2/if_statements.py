@@ -44,3 +44,27 @@ elif num_1 < num_2:
     print("The first number is the smallest.")
 else:
     print("The second number is the smallest.")
+
+# A counter program to determine the number of odd and even numbers
+even = 0
+odd = 0
+first_number = int(input("Please enter the first whole number.\n"))
+print(first_number)
+second_number = int(input("Please enter the second whole number.\n"))
+print(second_number)
+third_number = int(input("Please enter the third whole number.\n"))
+print(third_number)
+print()
+if first_number % 2 == 0:
+    even + 1
+else:
+    odd + 1
+if second_number % 2 == 0:
+    even + 1
+else:
+    odd + 1
+if third_number % 2 == 0:
+    even + 1
+else:
+    odd + 1
+print(f"There were {even} even and {odd} off numbers.")
