@@ -31,3 +31,16 @@ if number % 2 == 0:
 else:
     print(f"The number {number} is an odd number")
 
+# Comparison operator finding the smallest number
+
+num_1 = input("Please enter the first number.\n")
+print(num_1)
+num_2 = input("Please enter the second number.\n")
+print(num_2)
+
+if num_1 == num_2:
+    print("Both are equal!")
+elif num_1 < num_2:
+    print("The first number is the smallest.")
+else:
+    print("The second number is the smallest.")
