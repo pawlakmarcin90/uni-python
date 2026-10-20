@@ -23,3 +23,11 @@ elif direction == "right":
     print("I am moving in a rightward direction!")
 else:
     print("Direction unknown!")
+
+# Demonstrating the use of modulo operator
+number = int(input("Please enter a whole number.\n"))
+if number % 2 == 0:
+    print(f"The number {number} is even number")
+else:
+    print(f"The number {number} is an odd number")
+
