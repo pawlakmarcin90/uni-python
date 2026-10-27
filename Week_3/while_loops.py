@@ -27,3 +27,13 @@ while battery_status < battery_percent:
 print("Battery is fully charged!")
 
 """
+"""
+phrase = input("Please enter a phrase:\n")
+count = 0
+
+while count < len(phrase):
+    count += 1
+    print("Hi", end =' ')
+"""
+
+num = 
