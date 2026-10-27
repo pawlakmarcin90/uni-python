@@ -21,3 +21,10 @@ for i in range(steps, 0, -1):
 print("Target achieved!")
 
 """
+
+# Adjusting the brightness level using a range() function
+
+brightness = int(input("What level of brightness is required?\n"))
+
+for i in range(2, brightness +2, 2):
+    print(f"Brightness level: {'*' * i}")
