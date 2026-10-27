@@ -17,3 +17,13 @@ while obstacle_count < obstacle_num:
     print(f"...Done {obstacle_count} obstacles avoided.")
 
 """
+"""
+battery_percent = int(input("How many bars should be charged?\n"))
+battery_status = 0
+battery_icon = "█"
+while battery_status < battery_percent:
+    battery_status += 1
+    print(f"Charging... {(battery_icon + ' ') * battery_status}")
+print("Battery is fully charged!")
+
+"""
