@@ -36,4 +36,3 @@ while count < len(phrase):
     print("Hi", end =' ')
 """
 
-num = 
