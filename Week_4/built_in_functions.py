@@ -27,3 +27,12 @@ def ascii_code_placeholder(char):
 char = input("Enter a single standard character: ")
 ascii_code_placeholder(char)
  """
+# A simple program to get the ASCII value of a number input by the user
+""" 
+ascii_value = abs(int(input("Enter a number to get its ASCII value: ")))
+if ascii_value < 0 or ascii_value > 127:
+    print("Error: Please enter a number between 0 and 127.")
+else:
+    print(f"The ASCII code representation for {ascii_value} is '{chr(ascii_value)}'.")
+ """
+
