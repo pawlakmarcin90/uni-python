@@ -54,3 +54,10 @@ phrase = input("What phrase do you want to see in reverse?\n")
 
 for i in range(len(phrase)):
     print(phrase[len(phrase) - 1 - i], end="") """
+
+phrase = input("What phrase do you want to print?\n\n")
+
+print("outputting...\n\nThe phrase is:")
+
+for i in range(0, len(phrase), 1):
+    print(phrase[i])
