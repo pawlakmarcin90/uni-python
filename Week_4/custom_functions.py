@@ -27,3 +27,15 @@ def greet_user():
 
 greet_user()
  """
+# Excersise of a multiple function usage - ladder display
+
+def display_ladder(steps):
+    for step in range(1, steps + 1):
+        print("|__|")
+    print("|  |\n")
+
+def create_ladder():
+    steps = int(input("How many steps remain?\n"))
+    display_ladder(steps)
+
+create_ladder()
