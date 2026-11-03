@@ -61,7 +61,7 @@ def run():
         print(calc_avg_weight(character_weight, inventory_weight))
 run()
  """
-
+""" 
 # Creating a calculator function with a loop and a menu
 
 
@@ -114,3 +114,4 @@ while True:
     elif choice in ["1", "2", "3", "4"]:
         result = operation(choice)
         print(display_box(result))
+ """
