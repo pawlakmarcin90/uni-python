@@ -1,4 +1,3 @@
-""" 
 def play_guess_the_number():
     import random as rn
 
@@ -20,5 +19,3 @@ def play_guess_the_number():
 
     print(f"Congratulations! You guessed the number {random_number} correctly!")
 
-play_guess_the_number()
- """
