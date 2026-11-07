@@ -115,3 +115,23 @@ while True:
         result = operation(choice)
         print(display_box(result))
  """
+
+def in_box(word):
+    message = f"* {word} *"
+    print("*" * len(message))
+    print(message)
+    print("*" * len(message))
+def lower(word):
+    print(word.lower())
+def upper(word):
+    print(word.upper())
+def mirror(word):
+    for letter in word[::-1]:
+        print(letter, end="")
+def repeat(word):
+    times = int(input("How many times do you want the message to be repeated?\n: "))
+    while times > 0:
+        upper(word)
+        times -= 1
+        lower(word)
+        times -= 1
