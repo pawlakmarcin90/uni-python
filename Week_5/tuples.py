@@ -21,7 +21,16 @@ def likelyhood():
 
 def run_task1():
     result = likelyhood()
-    print(f"The smallest likelyhood of failing is: {result}")
+    print(f"The smallest likelyhood of failing is: {result}%")
 
 if __name__ == "__main__":
     run_task1()
+
+def likelyhood_min_max():
+    likelyhoods = (50, 38, 27, 99, 4)
+    return min(likelyhoods), max(likelyhoods)
+
+def run_task2():
+    result = likelyhood_min_max()
+    print(f"The smallest likelyhood of failing is {result[0]}%")
+    print(f"The highest likelyhood of failing is {result[1]}%")
