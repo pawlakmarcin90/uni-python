@@ -36,3 +36,9 @@ def run_task1():
 
 if __name__ == "__main__":
     run_task1()
+
+fruits = ["apple", "banana", "cherry", "date"]
+
+for index in range(len(fruits)):
+    fruit = fruits[index]
+    print(f"{fruit} is at index {index}")
