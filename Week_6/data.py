@@ -71,3 +71,13 @@ with open("students.csv", "r") as file:
     for row in data:
         print(row[0], row[1], row[2])
 # %%
+import csv
+
+with open("movies.csv") as file:
+    data = csv.reader(file, delimiter = ',', quotechar = '"')
+    next(data)
+    for row in data:
+        print(row)
+# %%
+import os
+
